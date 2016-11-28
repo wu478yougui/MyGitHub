@@ -1,4 +1,4 @@
-oooooooooooooomvn archetype:generate -DgroupId=com.hand  -DartifactId=test1  -DarchetypeArtifactId=maven-archetype-quickstart  -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.hand  -DartifactId=test1  -DarchetypeArtifactId=maven-archetype-quickstart  -DinteractiveMode=false
 
 
 mvn exec:java -Dexec.mainClass="com.hand.App" -Dexec.args="arg0 arg1 arg2"
